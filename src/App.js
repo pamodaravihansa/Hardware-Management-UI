@@ -1,12 +1,10 @@
-import './App.css';
+import './CSS/style.css';
+
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-         <h1>Hi I'm Pamoda</h1>
-      </header>
-    </div>
+    <Home/>
   );
 }
 
