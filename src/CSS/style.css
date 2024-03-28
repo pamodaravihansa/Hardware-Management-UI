@@ -1,7 +1,7 @@
 /* side nav bar styling */
-
 .navbar-container {
     display: flex;
+    position: sticky;
     width: 8.25rem;
     height: 100vh;
     padding-top: 8.75rem;
@@ -21,7 +21,8 @@
 .navbar-container div {
     display: flex;
     width: 4.25rem;
-    padding: 0.6875rem 0.5rem;
+    height: 4rem;
+    padding: 0rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,3 +37,38 @@
     line-height: normal;
 }
 
+
+
+/* Home Page Styling */
+#homepage {
+    display: grid;
+    max-width: 90rem;
+    gap: 1.5rem;
+    margin: auto;
+    grid-template-columns: 8.25rem 77.75rem;
+    grid-template-rows: 1fr;
+}
+
+/* toptitlebar styling */
+#top-title-bar {
+    display: flex;
+    flex-direction: row;
+    width: 77.75rem;
+    height: 5rem;
+    align-items: flex-start;
+    gap: 28.75rem;
+}
+
+#top-title-bar h2 {
+    color: #00264D;
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#profile-section {
+    display: flex;
+    flex-direction: row;
+}
