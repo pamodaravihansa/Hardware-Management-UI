@@ -29,7 +29,9 @@ export default function Home() {
                             </svg>
                         </div>
                     </div>
+
                     <div id="items-container">
+                        <ItemCard></ItemCard>
                         <ItemCard></ItemCard>
                     </div>
 
