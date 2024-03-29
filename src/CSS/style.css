@@ -150,7 +150,7 @@
     flex-flow: row wrap;
     min-width: 0;
     min-height: 0;
-    
+
 }
 
 
@@ -243,20 +243,59 @@
     flex-flow: row wrap;
     grid-row: 4/5;
     height: 34.43rem;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 2rem;
     border-radius: 0.625rem;
     border: 1px solid #DFE5EC;
     background: #FFF;
 }
 
-.item-card {
+#item-card {
     width: 22.75rem;
     height: 7.25rem;
 
     border-radius: 0.625rem;
     border: 1px solid #DFE5EC;
     background: #FFF;
+}
+
+#item-name {
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+    color: #00264D;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#item-card-price {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    align-items: baseline;
+}
+
+#rs {
+    color: #00264D;
+    font-family: Manrope;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#price {
+    color: #F37A7A;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 
@@ -266,5 +305,8 @@
     display: flex;
     grid-column: 2/3;
     grid-row: 2/5;
-    border: 2px solid #0080FF;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.13);
 }

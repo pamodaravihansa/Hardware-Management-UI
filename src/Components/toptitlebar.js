@@ -10,7 +10,7 @@ export default function TopTitleBar() {
                     <span id="yourname">Your Name</span>
                     <span id="admin">Admin</span>
                 </div>
-                <img src= {profileImage}></img>
+                <img src= {profileImage} alt='profile'></img>
             </div>
         </div>
         
