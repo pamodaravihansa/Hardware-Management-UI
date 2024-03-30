@@ -2,7 +2,7 @@
 .navbar-container {
     display: flex;
     position: sticky;
-    width: 8.25rem;
+    min-width: 8.25rem;
     height: 100vh;
     padding-top: 8.75rem;
     flex-direction: column;
@@ -39,7 +39,7 @@
 
 /* grid rightside */
 #right-side {
-    display: grid;
+    display: flex;
     width: 78.25rem;
     grid-template-columns: 1fr;
     grid-template-rows: 5rem 1fr;
@@ -110,12 +110,12 @@
 
 /* Home Page Styling */
 #homepage {
-    display: grid;
+    display: flex;
     max-width: 90rem;
     gap: 1.5rem;
     margin: auto;
-    grid-template-columns: 8.25rem 77.75rem;
-    grid-template-rows: 1fr;
+    /* grid-template-columns: 8.25rem 77.75rem; */
+    /* grid-template-rows: 1fr; */
     background: linear-gradient(125deg, #BFDFFF 10.17%, #FCFCFC 57.78%);
 }
 
@@ -232,8 +232,6 @@
 
     border: none;
 }
-
-
 
 
 /* items container */
