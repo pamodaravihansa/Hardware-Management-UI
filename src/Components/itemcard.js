@@ -1,5 +1,5 @@
 
-import '../CSS/style.css';
+import '../CSS/style.scss';
 
 export default function ItemCard() {
     return (

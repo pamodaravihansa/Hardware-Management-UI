@@ -1,4 +1,4 @@
-import '../CSS/style.css';
+import '../CSS/style.scss';
 import profileImage from '../assets/images/profile_image.png';
 
 export default function TopTitleBar() {

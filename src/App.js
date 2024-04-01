@@ -1,4 +1,4 @@
-import './CSS/style.css';
+import './CSS/style.scss';
 
 import Home from "./Pages/Home";
 

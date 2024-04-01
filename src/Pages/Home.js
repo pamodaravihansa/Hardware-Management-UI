@@ -1,4 +1,4 @@
-import '../CSS/style.css';
+import '../CSS/style.scss';
 
 import SideNavBar from '../Components/sidenavbar.js'
 import TopTitleBar from '../Components/toptitlebar.js';
