@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
 /* side nav bar styling */
 .navbar-container {
     display: flex;
     position: sticky;
+    overflow: hidden;
     min-width: 8.25rem;
     height: 100vh;
     padding-top: 8.75rem;
@@ -53,6 +59,7 @@
     height: 5rem;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 2rem;
 }
 
 #top-title-bar h2 {
@@ -105,17 +112,13 @@
 
 /* Home Page layout setting */
 
-#right-side {
-    display: flex;
-    flex-direction: column;
-    // width: 78.25rem;
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
 
 #homepage {
     display: flex;
-    max-width: 90rem;
+    overflow: hidden;
+    height: 100vh;
+    flex-direction: row;
+    max-width: 14400px;
     gap: 1.5rem;
     margin: auto;
     /* grid-template-columns: 8.25rem 77.75rem; */
@@ -123,10 +126,20 @@
     background: linear-gradient(125deg, #BFDFFF 10.17%, #FCFCFC 57.78%);
 }
 
+#right-side {
+    display: flex;
+    overflow: auto;
+    height: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
 #homepage-content {
     display: flex;
     gap: 1.5rem;
     flex-direction: row;
+    width: 100%;
 }
 
 .content-left {
@@ -355,19 +368,16 @@
 }
 
 
-
-
-
-
-
-
-
 /* price-calc-container */
 
 .price-calc-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     width: 25.25rem;
     margin-top: 2.68rem;
+    padding:1.25rem;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.13);
