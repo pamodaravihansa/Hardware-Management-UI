@@ -3,7 +3,7 @@ import '../CSS/style.scss';
 
 export default function ItemCard() {
     return (
-        <div id="item-card">
+        <div className="item-card">
             <div className='item-card-top-content'>
                 <span id="item-name">Dulux Brilliant white 20L</span>
             </div>
