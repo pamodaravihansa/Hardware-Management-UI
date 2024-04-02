@@ -37,9 +37,7 @@ export default function Home() {
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>    
                         </div>
                     </div>
                     <div className="price-calc-container">
@@ -58,6 +56,14 @@ export default function Home() {
                                 <span className='total-amount-rs'>Rs.&nbsp;</span>
                                 <span className='total-amount-amont'>20,700.00</span>
                             </div>
+                        </div>
+                        <div className='button-container'>
+                            <button className='clear-btn'>
+                                Clear
+                            </button>
+                            <button className='print-bill-btn'>
+                                Print Bill
+                            </button>
                         </div>
                     </div>
                 </div>

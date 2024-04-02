@@ -366,8 +366,9 @@ body {
 #items-container {
     box-sizing: border-box;
     display: flex;
+    // overflow: hidden;
     flex-flow: row wrap;
-    height: auto;
+    height: 100%;
     width: auto;
     gap: 2rem;
     padding: 2rem;
@@ -375,9 +376,9 @@ body {
     outline: 1px solid #DFE5EC;
     background: #FFF;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
-
 
 
 
@@ -385,6 +386,7 @@ body {
 
 .price-calc-container {
     width: 25.25rem;
+    height: 52.3125rem;
     margin-top: 2.68rem;
     padding: 1.25rem;
     border-radius: 10px;
@@ -438,9 +440,57 @@ body {
             .total-amount-amont {
                 @extend .total-amount-left;
                 font-size: 1.5rem;
-                
+
             }
         }
+
     }
+
+    .button-container {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-top: 0.88rem;
+        margin-bottom: 1.25rem;
+
+        .clear-btn {
+            display: flex;
+            width: 8.8125rem;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.625rem;
+            border: 1px solid #0080FF;
+            background: #FFFFFF;
+
+            color: #0080FF;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .print-bill-btn {
+            display: flex;
+            width: 13.4375rem;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.625rem;
+            border: 1px solid #0080FF;
+            background: #0080FF;
+
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+    }
+
+
 
 }
