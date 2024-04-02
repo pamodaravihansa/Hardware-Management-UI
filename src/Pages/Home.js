@@ -50,7 +50,15 @@ export default function Home() {
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
                         </div>
-
+                        <div className='total-amount-container'>
+                            <span className='total-amount-left'>
+                                Total Amount
+                            </span>
+                            <div className='total-amount-right'>
+                                <span className='total-amount-rs'>Rs.&nbsp;</span>
+                                <span className='total-amount-amont'>20,700.00</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
