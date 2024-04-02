@@ -129,12 +129,12 @@
     flex-direction: row;
 }
 
-.content-left{
+.content-left {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     width: 51.5rem;
-    
+
 }
 
 
@@ -257,64 +257,109 @@
 /* items cards */
 
 #items-container {
+    box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
     height: auto;
     width: auto;
-    row-gap: 1.8rem;
-    column-gap: 2rem;
+    gap: 2rem;
     padding: 2rem;
     border-radius: 0.625rem;
-    border: 1px solid #DFE5EC;
+    outline: 1px solid #DFE5EC;
     background: #FFF;
+    align-items: center;
+    justify-content: center;
 }
 
 #item-card {
+    display: flex;
+    flex-direction: column;
     width: 22.75rem;
     height: 7.25rem;
     border-radius: 0.625rem;
     border: 1px solid #DFE5EC;
     background: #FFF;
+    gap: 1.5rem;
+    padding: 1.5rem;
+
+    .item-card-top-content {
+        #item-name {
+            color: #00264D;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .item-card-bottom-content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+
+        #item-card-price {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+
+            #rs {
+                color: #00264D;
+                font-family: Manrope;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            #price {
+                color: #F37A7A;
+                font-family: Manrope;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+        }
+
+        #item-card-qty {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            gap: 0.1rem;
+
+            #qty {
+                color: #00264D;
+                font-family: Manrope;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            #qty-text {
+                color: #00264D;
+                font-family: Manrope;
+                font-size: 0.75rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+        }
+
+    }
 }
 
-#item-name {
-    position: relative;
-    top: 1.5rem;
-    left: 1.5rem;
-    color: #00264D;
-    font-family: Manrope;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
-#item-card-price {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 1.5rem;
-    bottom: 1.5rem;
-    align-items: baseline;
-}
 
-#rs {
-    color: #00264D;
-    font-family: Manrope;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
-#price {
-    color: #F37A7A;
-    font-family: Manrope;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
+
+
+
 
 
 /* price-calc-container */
@@ -327,4 +372,3 @@
     background: #FFF;
     box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.13);
 }
-

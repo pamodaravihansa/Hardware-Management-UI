@@ -13,12 +13,10 @@ export default function Home() {
                 <TopTitleBar />
                 <div id="homepage-content">
                     <div className="content-left">
-
                         <div className="choose-category-section">
                             <span id="choose-title">Choose Category</span>
                             <CategoryButtons />
                         </div>
-
                         <div id="input-container">
                             <select name="Dropdown" id="dropdown">
                                 <option value="Outdoor_paints">Outdoor Paints</option>
@@ -34,6 +32,10 @@ export default function Home() {
                             </div>
                         </div>
                         <div id="items-container">
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
                         </div>
