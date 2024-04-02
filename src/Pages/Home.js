@@ -38,6 +38,8 @@ export default function Home() {
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
                             <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
                         </div>
                     </div>
                     <div className="price-calc-container">

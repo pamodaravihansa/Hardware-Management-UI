@@ -114,23 +114,21 @@ body {
 
 #homepage {
     display: flex;
-    overflow: hidden;
+    overflow: none;
     height: 100vh;
     flex-direction: row;
     max-width: 14400px;
     gap: 1.5rem;
-    margin: auto;
-    /* grid-template-columns: 8.25rem 77.75rem; */
-    /* grid-template-rows: 1fr; */
+    margin: 0;
     background: linear-gradient(125deg, #BFDFFF 10.17%, #FCFCFC 57.78%);
 }
 
 #right-side {
     display: flex;
     overflow: auto;
-    height: 100%;
     flex-direction: column;
     gap: 1.5rem;
+    overflow-x: hidden;
 }
 
 
@@ -406,6 +404,5 @@ body {
             }
         }
     }
-
 
 }
