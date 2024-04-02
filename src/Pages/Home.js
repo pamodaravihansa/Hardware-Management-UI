@@ -41,11 +41,14 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="price-calc-container">
-                        <ItemCard></ItemCard>
-                        <ItemCard></ItemCard>
-                        <ItemCard></ItemCard>
-                        <ItemCard></ItemCard>
-                        <ItemCard></ItemCard>
+                        <div className='item-card-container-left'>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                            <ItemCard></ItemCard>
+                        </div>
+
                     </div>
                 </div>
             </div>
