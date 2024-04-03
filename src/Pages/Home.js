@@ -7,14 +7,14 @@ import ItemCard from '../Components/itemcard.js';
 
 export default function Home() {
     return (
-        <div id="homepage">
+        <div className="parent-page">
             <SideNavBar />
-            <div id="right-side">
+            <div className="right-side">
                 <TopTitleBar />
-                <div id="homepage-content">
+                <div className="page-content">
                     <div className="content-left">
                         <div className="choose-category-section">
-                            <span id="choose-title">Choose Category</span>
+                            <span className="section-title">Choose Category</span>
                             <CategoryButtons />
                         </div>
                         <div id="input-container">
@@ -32,21 +32,21 @@ export default function Home() {
                             </div>
                         </div>
                         <div id="items-container">
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>    
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>   
                         </div>
                     </div>
                     <div className="price-calc-container">
                         <div className='item-card-container-left'>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
-                            <ItemCard></ItemCard>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
+                            <ItemCard/>
                         </div>
                         <div className='total-amount-container'>
                             <span className='total-amount-left'>

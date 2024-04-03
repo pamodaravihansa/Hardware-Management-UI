@@ -7,6 +7,10 @@
 body {
     overflow: hidden;
     height: 100vh;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 /* side nav bar styling */
@@ -28,6 +32,7 @@ body {
     border-radius: 0.625rem;
     border: 2px solid #0080FF;
     color: #0080FF;
+
 }
 
 .navbar-container div {
@@ -41,6 +46,8 @@ body {
     gap: 0.125rem;
     border-radius: 0.625rem;
     border: 2px solid #BFCCD9;
+
+    text-decoration: none;
     color: #BFCCD9;
     font-family: Manrope;
     font-size: 0.625rem;
@@ -49,6 +56,7 @@ body {
     line-height: normal;
     cursor: pointer;
 }
+
 
 /* toptitlebar styling */
 #top-title-bar {
@@ -110,9 +118,9 @@ body {
 }
 
 
-/* Home Page layout setting */
+/* Page layout styling */
 
-#homepage {
+.parent-page {
     display: flex;
     overflow: none;
     height: 100vh;
@@ -123,7 +131,7 @@ body {
     background: linear-gradient(125deg, #BFDFFF 10.17%, #FCFCFC 57.78%);
 }
 
-#right-side {
+.right-side {
     display: flex;
     overflow: auto;
     flex-direction: column;
@@ -132,7 +140,7 @@ body {
 }
 
 
-#homepage-content {
+.page-content {
     display: flex;
     gap: 1.5rem;
     flex-direction: row;
@@ -156,7 +164,7 @@ body {
     gap: 1rem;
 }
 
-#choose-title {
+.section-title {
     grid-row: 1/2;
     color: #00264D;
     font-family: Manrope;
@@ -490,7 +498,67 @@ body {
         }
 
     }
+}
 
 
+/* Dashboard styling */
+
+.page-content-dashboard {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .low-stock-items-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .item-card-grid3x3 {
+            display: flex;
+            width: 73.25rem;
+            align-items: flex-start;
+            align-content: flex-start;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+    }
+
+    .re-stock-items-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .inputs-section {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 77.75rem;
+
+            a {
+                .add-item-btn {
+                    display: flex;
+                    width: 13.4375rem;
+                    padding: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0.5rem;
+
+                    border-radius: 0.625rem;
+                    border: 1px solid #0080FF;
+                    background: #0080FF;
+
+                    color: #FFF;
+                    font-family: Manrope;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+
+
+    }
 
 }
