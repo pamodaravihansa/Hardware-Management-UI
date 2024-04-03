@@ -136,7 +136,7 @@ body {
     overflow: auto;
     flex-direction: column;
     gap: 1.5rem;
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 
@@ -503,25 +503,26 @@ body {
 
 /* Dashboard styling */
 
+
+.item-card-grid3x3 {
+    display: flex;
+    width: 73.25rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
 .page-content-dashboard {
-    overflow: auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
 
     .low-stock-items-section {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-
-        .item-card-grid3x3 {
-            display: flex;
-            width: 73.25rem;
-            align-items: flex-start;
-            align-content: flex-start;
-            gap: 2.5rem;
-            flex-wrap: wrap;
-        }
     }
 
     .re-stock-items-section {
@@ -533,7 +534,7 @@ body {
             display: inline-flex;
             align-items: center;
             justify-content: space-between;
-            width: 77.75rem;
+            width: 78.25rem;
 
             a {
                 .add-item-btn {
@@ -558,6 +559,17 @@ body {
             }
         }
 
+        .restock-items-card-section {
+            display: flex;
+            width: 78.25rem;
+            padding: 2.5rem;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 0.625rem;
+            outline: 1px solid #DFE5EC;
+            background: #FFF;
+        }
 
     }
 

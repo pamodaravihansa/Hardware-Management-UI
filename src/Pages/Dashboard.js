@@ -46,9 +46,20 @@ export default function Dashboard() {
                                     </svg>
                                     Add Item
                                 </div>
-
                             </a>
-
+                        </div>
+                        <div className="restock-items-card-section">
+                            <div className="item-card-grid3x3">
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                                <ItemCard />
+                            </div>
                         </div>
                     </div>
                 </div>
