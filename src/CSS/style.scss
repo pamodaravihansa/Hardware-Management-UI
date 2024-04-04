@@ -536,7 +536,7 @@ body {
             justify-content: space-between;
             width: 78.25rem;
 
-            a {
+            
                 .add-item-btn {
                     display: flex;
                     width: 13.4375rem;
@@ -544,6 +544,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     gap: 0.5rem;
+                    cursor: pointer;
 
                     border-radius: 0.625rem;
                     border: 1px solid #0080FF;
@@ -556,7 +557,7 @@ body {
                     font-weight: 600;
                     line-height: normal;
                 }
-            }
+            
         }
 
         .restock-items-card-section {
@@ -573,4 +574,160 @@ body {
 
     }
 
+}
+
+
+// Modal Styling
+.modal-bg{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 38, 77, 0.40);
+    z-index: 1000;
+}
+
+
+.add-item-popup {
+    display: flex;
+    width: 33rem;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2.5rem;
+    justify-content: flex-start;
+
+    border-radius: 0.625rem;
+    background: #ffffff;
+
+    position: fixed;
+    top:"50%";
+    left: "50%";
+    transform: 'translate(-50%, -50%)';
+    z-index: 1000;
+
+    .add-modal-topsection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 29rem;
+
+        span {
+            color: #00264D;
+            text-align: right;
+            font-family: Manrope;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2.3125rem;
+            height: 2.125rem;
+            background: #F37A7A;
+            border-radius: 0.625rem;
+            cursor: pointer;
+        }
+
+    }
+
+    .add-modal-inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        .modal-input {
+            display: flex;
+            width: 29rem;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            span {
+                color: #00264D;
+                font-family: Manrope;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            input {
+                width: 20.6875rem;
+                height: 3rem;
+                border-radius: 0.625rem;
+                border: 1px solid #BFCCD9;
+            }
+
+            select {
+                @extend input;
+                padding: 0.75rem 0.75rem 0.75rem 1rem;
+                color: #698096;
+                font-family: Manrope;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .descrip {
+                height: 6rem;
+                ;
+            }
+        }
+
+    }
+
+    .add-modal-buttons {
+        display: inline-flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        
+
+        .clr-btn {
+            display: flex;
+            width: 7.3125rem;
+            height: 3.5rem;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 0.625rem;
+            border: 1px solid #0080FF;
+            background: #FFF;
+
+            color: #0080FF;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .add-btn {
+            display: flex;
+            width: 12.375rem;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+
+            border-radius: 0.625rem;
+            border: 1px solid #0080FF;
+            background: #0080FF;
+
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+    }
 }
