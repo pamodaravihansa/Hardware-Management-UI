@@ -536,28 +536,28 @@ body {
             justify-content: space-between;
             width: 78.25rem;
 
-            
-                .add-item-btn {
-                    display: flex;
-                    width: 13.4375rem;
-                    padding: 1rem;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 0.5rem;
-                    cursor: pointer;
 
-                    border-radius: 0.625rem;
-                    border: 1px solid #0080FF;
-                    background: #0080FF;
+            .add-item-btn {
+                display: flex;
+                width: 13.4375rem;
+                padding: 1rem;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+                cursor: pointer;
 
-                    color: #FFF;
-                    font-family: Manrope;
-                    font-size: 1rem;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: normal;
-                }
-            
+                border-radius: 0.625rem;
+                border: 1px solid #0080FF;
+                background: #0080FF;
+
+                color: #FFF;
+                font-family: Manrope;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
         }
 
         .restock-items-card-section {
@@ -578,9 +578,9 @@ body {
 
 
 // Modal Styling
-.modal-bg{
+.modal-bg {
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -601,7 +601,7 @@ body {
     background: #ffffff;
 
     position: fixed;
-    top:"50%";
+    top: "50%";
     left: "50%";
     transform: 'translate(-50%, -50%)';
     z-index: 1000;
@@ -687,7 +687,7 @@ body {
         display: inline-flex;
         justify-content: flex-end;
         gap: 1rem;
-        
+
 
         .clr-btn {
             display: flex;
@@ -730,4 +730,75 @@ body {
 
         }
     }
+}
+
+
+// Sales page styling
+.sales-top-section {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 78.25rem;
+
+    .table-inputs {
+        display: flex;
+        gap: 1.5rem;
+        height: 2.75rem;
+
+        .table-input {
+            display: flex;
+            width: 11.68rem;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.625rem 1rem;
+
+            border-radius: 0.625rem;
+            border: 1px solid #DFE5EC;
+            background: #FFF;
+
+            color: #698096;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .total-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        align-items: flex-start;
+
+        .total-text {
+            color: #00264D;
+            font-family: Manrope;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .total-value {
+            color: #F37A7A;
+            font-family: Manrope;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+}
+
+.sales-table-container {
+    width: 78.25rem;
+    height: 45.78rem;
+    margin-top: 1.5rem;
+
+    border-radius: 0.625rem;
+    border: 1px solid #DFE5EC;
+    background: #FFF;
 }
