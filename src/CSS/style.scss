@@ -794,6 +794,11 @@ body {
 }
 
 .sales-table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 3.5rem;
+    justify-content: flex-start;
+    align-items: center;
     width: 78.25rem;
     height: 45.78rem;
     margin-top: 1.5rem;
@@ -801,4 +806,52 @@ body {
     border-radius: 0.625rem;
     border: 1px solid #DFE5EC;
     background: #FFF;
+
+    table {
+        width: 100%;
+
+        thead {
+            tr {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                margin-bottom: 2.5rem;
+
+                th {
+                    color: #00264D;
+                    font-family: Manrope;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    width: 6.75rem;
+                    text-align: left;
+                }
+            }
+
+        }
+
+        tbody {
+            tr {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                margin-bottom: 2.5rem;
+
+
+                td {
+                    color: #698096;
+                    font-family: "SF Pro Display";
+                    font-size: 1.0625rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 6.75rem;
+                    text-align: left;
+                }
+            }
+        }
+
+    }
+
 }

@@ -45,7 +45,45 @@ export default function Sales() {
                         </div>
                     </div>
                     <div className='sales-table-container'>
-                        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Transaction ID</th> <th>Date</th> <th>Item</th> <th>Quantity</th> <th>Cashier</th> <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                                <tr>
+                                    <td>#12345</td> <td>12.22.2022</td> <td>Dulux B White</td> <td>12 L</td> <td>Cashier Name</td> <td>10,000.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
